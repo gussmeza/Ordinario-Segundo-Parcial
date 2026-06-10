@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#ffffff;
+}
+
+.menu{
+    width:90%;
+    margin:20px auto 40px auto;
+    display:flex;
+}
+
+.menu a{
+    flex:1;
+    text-decoration:none;
+    text-align:center;
+    padding:20px 0;
+    color:#000;
+    font-size:18px;
+    border:1px solid #1d3f82;
+    background:linear-gradient(#5f8ed6,#3e6db8);
+}
+
+.contenedor{
+    width:85%;
+    margin:0 auto;
+    background:linear-gradient(#b9e3ff,#52a8dc);
+    border:12px solid #0c2f72;
+    border-radius:45px;
+    padding:50px;
+}
+
+.formulario{
+    margin:auto;
+    border-collapse:separate;
+    border-spacing:20px 18px;
+}
+
+.etiqueta{
+    font-size:20px;
+    font-weight:bold;
+    color:#082d73;
+    width:140px;
+}
+
+input{
+    width:460px;
+    height:38px;
+    border:1px solid #bdbdbd;
+    padding:5px 10px;
+    font-size:18px;
+    background:#fff;
+}
+
+.boton-celda{
+    vertical-align:top;
+}
+
+button{
+    width:220px;
+    height:180px;
+    border:1px solid #bdbdbd;
+    background:#ffffff;
+    font-size:32px;
+    font-style:italic;
+    font-weight:bold;
+    color:#163b8c;
+    cursor:pointer;
+}
+
+hr{
+    width:85%;
+    margin:25px auto;
+    border:0;
+    border-top:4px solid #173e85;
+}
