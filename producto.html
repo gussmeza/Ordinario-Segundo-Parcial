@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="#">Conocenos</a>
+        <a href="#">Productos</a>
+        <a href="#">Registro</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="contenedor">
+        <table class="formulario">
+            <tr>
+                <td class="etiqueta">Web</td>
+                <td>
+                    <input type="text" value="https://accounts.google.com/signup">
+                </td>
+                <td rowspan="3" class="boton-celda">
+                    <button>Buscar</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="etiqueta">Nombre</td>
+                <td>
+                    <input type="text" value="Juan">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="etiqueta">Apellido</td>
+                <td>
+                    <input type="text" value="Pablo">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
 </body>
 </html>
